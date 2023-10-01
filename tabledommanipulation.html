@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dom Manipulation</title>
+</head>
+<body>
+  <ul>
+    <li>First element</li>
+    <li>Second Element</li>
+    <li>Third Element</li>
+  </ul>
+  <table>
+    <tr>
+      <td>One</td> 
+      <td>two</td>
+         
+    </tr>
+
+    <tr>
+      <td>three</td>
+      <td>four</td>
+    </tr>
+  </table>
+
+
+
+
+
+<script>
+
+  const tableTag= document.body.children[1];
+    console.log(tableTag.tBodies[0].rows[0].cells[1].textContent)
+  </script>
+  </body>
+</html>
